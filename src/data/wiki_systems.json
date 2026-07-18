@@ -1,0 +1,302 @@
+{
+  "source": "https://poke.idleworld.online/pokepedia",
+  "extracted_at": "2026-07-17",
+  "types": {
+    "Normal": {
+      "defense": {
+        "weak_against": [{"type": "Fighting", "multiplier": 2}],
+        "resists": [],
+        "immune_to": [{"type": "Ghost", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [],
+        "not_very_effective_against": [{"type": "Rock", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": [{"type": "Ghost", "multiplier": 0}]
+      }
+    },
+    "Fire": {
+      "defense": {
+        "weak_against": [{"type": "Water", "multiplier": 2}, {"type": "Ground", "multiplier": 2}, {"type": "Rock", "multiplier": 2}],
+        "resists": [{"type": "Fire", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Ice", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Grass", "multiplier": 2}, {"type": "Ice", "multiplier": 2}, {"type": "Bug", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Water", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}, {"type": "Dragon", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Water": {
+      "defense": {
+        "weak_against": [{"type": "Grass", "multiplier": 2}, {"type": "Electric", "multiplier": 2}],
+        "resists": [{"type": "Fire", "multiplier": 0.5}, {"type": "Water", "multiplier": 0.5}, {"type": "Ice", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Fire", "multiplier": 2}, {"type": "Ground", "multiplier": 2}, {"type": "Rock", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Water", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Dragon", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Grass": {
+      "defense": {
+        "weak_against": [{"type": "Fire", "multiplier": 2}, {"type": "Ice", "multiplier": 2}, {"type": "Poison", "multiplier": 2}, {"type": "Flying", "multiplier": 2}, {"type": "Bug", "multiplier": 2}],
+        "resists": [{"type": "Water", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Electric", "multiplier": 0.5}, {"type": "Ground", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Water", "multiplier": 2}, {"type": "Ground", "multiplier": 2}, {"type": "Rock", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Poison", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Dragon", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Electric": {
+      "defense": {
+        "weak_against": [{"type": "Ground", "multiplier": 2}],
+        "resists": [{"type": "Electric", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Water", "multiplier": 2}, {"type": "Flying", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Grass", "multiplier": 0.5}, {"type": "Electric", "multiplier": 0.5}, {"type": "Dragon", "multiplier": 0.5}],
+        "no_effect": [{"type": "Ground", "multiplier": 0}]
+      }
+    },
+    "Ice": {
+      "defense": {
+        "weak_against": [{"type": "Fire", "multiplier": 2}, {"type": "Fighting", "multiplier": 2}, {"type": "Rock", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "resists": [{"type": "Ice", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Grass", "multiplier": 2}, {"type": "Ground", "multiplier": 2}, {"type": "Flying", "multiplier": 2}, {"type": "Dragon", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Water", "multiplier": 0.5}, {"type": "Ice", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Fighting": {
+      "defense": {
+        "weak_against": [{"type": "Flying", "multiplier": 2}, {"type": "Psychic", "multiplier": 2}, {"type": "Fairy", "multiplier": 2}],
+        "resists": [{"type": "Bug", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}, {"type": "Dark", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Normal", "multiplier": 2}, {"type": "Ice", "multiplier": 2}, {"type": "Rock", "multiplier": 2}, {"type": "Dark", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Poison", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}, {"type": "Psychic", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "no_effect": [{"type": "Ghost", "multiplier": 0}]
+      }
+    },
+    "Poison": {
+      "defense": {
+        "weak_against": [{"type": "Ground", "multiplier": 2}, {"type": "Psychic", "multiplier": 2}],
+        "resists": [{"type": "Grass", "multiplier": 0.5}, {"type": "Fighting", "multiplier": 0.5}, {"type": "Poison", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Grass", "multiplier": 2}, {"type": "Fairy", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Poison", "multiplier": 0.5}, {"type": "Ground", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}, {"type": "Ghost", "multiplier": 0.5}],
+        "no_effect": [{"type": "Steel", "multiplier": 0}]
+      }
+    },
+    "Ground": {
+      "defense": {
+        "weak_against": [{"type": "Water", "multiplier": 2}, {"type": "Grass", "multiplier": 2}, {"type": "Ice", "multiplier": 2}],
+        "resists": [{"type": "Poison", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}],
+        "immune_to": [{"type": "Electric", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Fire", "multiplier": 2}, {"type": "Electric", "multiplier": 2}, {"type": "Poison", "multiplier": 2}, {"type": "Rock", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Grass", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}],
+        "no_effect": [{"type": "Flying", "multiplier": 0}]
+      }
+    },
+    "Flying": {
+      "defense": {
+        "weak_against": [{"type": "Electric", "multiplier": 2}, {"type": "Ice", "multiplier": 2}, {"type": "Rock", "multiplier": 2}],
+        "resists": [{"type": "Grass", "multiplier": 0.5}, {"type": "Fighting", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}],
+        "immune_to": [{"type": "Ground", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Grass", "multiplier": 2}, {"type": "Fighting", "multiplier": 2}, {"type": "Bug", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Electric", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Psychic": {
+      "defense": {
+        "weak_against": [{"type": "Bug", "multiplier": 2}, {"type": "Ghost", "multiplier": 2}, {"type": "Dark", "multiplier": 2}],
+        "resists": [{"type": "Fighting", "multiplier": 0.5}, {"type": "Psychic", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Fighting", "multiplier": 2}, {"type": "Poison", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Psychic", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": [{"type": "Dark", "multiplier": 0}]
+      }
+    },
+    "Bug": {
+      "defense": {
+        "weak_against": [{"type": "Fire", "multiplier": 2}, {"type": "Flying", "multiplier": 2}, {"type": "Rock", "multiplier": 2}],
+        "resists": [{"type": "Grass", "multiplier": 0.5}, {"type": "Fighting", "multiplier": 0.5}, {"type": "Ground", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Grass", "multiplier": 2}, {"type": "Psychic", "multiplier": 2}, {"type": "Dark", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Fighting", "multiplier": 0.5}, {"type": "Poison", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}, {"type": "Ghost", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Rock": {
+      "defense": {
+        "weak_against": [{"type": "Water", "multiplier": 2}, {"type": "Grass", "multiplier": 2}, {"type": "Fighting", "multiplier": 2}, {"type": "Ground", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "resists": [{"type": "Normal", "multiplier": 0.5}, {"type": "Fire", "multiplier": 0.5}, {"type": "Poison", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Fire", "multiplier": 2}, {"type": "Ice", "multiplier": 2}, {"type": "Flying", "multiplier": 2}, {"type": "Bug", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fighting", "multiplier": 0.5}, {"type": "Ground", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Ghost": {
+      "defense": {
+        "weak_against": [{"type": "Ghost", "multiplier": 2}, {"type": "Dark", "multiplier": 2}],
+        "resists": [{"type": "Poison", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}],
+        "immune_to": [{"type": "Normal", "multiplier": 0}, {"type": "Fighting", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Psychic", "multiplier": 2}, {"type": "Ghost", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Dark", "multiplier": 0.5}],
+        "no_effect": [{"type": "Normal", "multiplier": 0}]
+      }
+    },
+    "Dragon": {
+      "defense": {
+        "weak_against": [{"type": "Ice", "multiplier": 2}, {"type": "Dragon", "multiplier": 2}, {"type": "Fairy", "multiplier": 2}],
+        "resists": [{"type": "Fire", "multiplier": 0.5}, {"type": "Water", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Electric", "multiplier": 0.5}],
+        "immune_to": []
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Dragon", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Steel", "multiplier": 0.5}],
+        "no_effect": [{"type": "Fairy", "multiplier": 0}]
+      }
+    },
+    "Dark": {
+      "defense": {
+        "weak_against": [{"type": "Fighting", "multiplier": 2}, {"type": "Bug", "multiplier": 2}, {"type": "Fairy", "multiplier": 2}],
+        "resists": [{"type": "Ghost", "multiplier": 0.5}, {"type": "Dark", "multiplier": 0.5}],
+        "immune_to": [{"type": "Psychic", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Psychic", "multiplier": 2}, {"type": "Ghost", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fighting", "multiplier": 0.5}, {"type": "Dark", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Steel": {
+      "defense": {
+        "weak_against": [{"type": "Fire", "multiplier": 2}, {"type": "Fighting", "multiplier": 2}, {"type": "Ground", "multiplier": 2}],
+        "resists": [{"type": "Normal", "multiplier": 0.5}, {"type": "Grass", "multiplier": 0.5}, {"type": "Ice", "multiplier": 0.5}, {"type": "Flying", "multiplier": 0.5}, {"type": "Psychic", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Rock", "multiplier": 0.5}, {"type": "Dragon", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}, {"type": "Fairy", "multiplier": 0.5}],
+        "immune_to": [{"type": "Poison", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Ice", "multiplier": 2}, {"type": "Rock", "multiplier": 2}, {"type": "Fairy", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Water", "multiplier": 0.5}, {"type": "Electric", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    },
+    "Fairy": {
+      "defense": {
+        "weak_against": [{"type": "Poison", "multiplier": 2}, {"type": "Steel", "multiplier": 2}],
+        "resists": [{"type": "Fighting", "multiplier": 0.5}, {"type": "Bug", "multiplier": 0.5}, {"type": "Dark", "multiplier": 0.5}],
+        "immune_to": [{"type": "Dragon", "multiplier": 0}]
+      },
+      "attack": {
+        "super_effective_against": [{"type": "Fighting", "multiplier": 2}, {"type": "Dragon", "multiplier": 2}, {"type": "Dark", "multiplier": 2}],
+        "not_very_effective_against": [{"type": "Fire", "multiplier": 0.5}, {"type": "Poison", "multiplier": 0.5}, {"type": "Steel", "multiplier": 0.5}],
+        "no_effect": []
+      }
+    }
+  },
+  "power": {
+    "description": "A Pokémon's Power comes from the combination of three things: species (base frame), IV (growth), and Quality (rarity).",
+    "power_formula": "Power = (HP + Atk + Def + SpAtk + SpDef + Spd) × Quality",
+    "stat_formula": "stat = round( (base + 2×growth) × level/100 × Quality^exp )",
+    "notes": [
+      "Quality appears twice (inside each stat and again in Power) — that's why it weighs so much.",
+      "The IV enters only as 2×growth added to the species base, which dominates the stat.",
+      "Between two Pokémon of the same species: if Quality differs significantly, higher Quality almost always wins even with lower IV. If Quality is similar, compare IVs.",
+      "You can't find the strongest by multiplying tier × IV — that math is NOT how the game works."
+    ]
+  },
+  "quality": {
+    "description": "Quality is the rarity multiplier rolled on capture. Growth (1..32 per stat) and Quality are fixed per captured Pokémon — evolving does NOT re-roll them.",
+    "bands": [
+      {"range": "0.8–0.9", "chance": "5%"},
+      {"range": "0.9–1.0", "chance": "5%"},
+      {"range": "1.0–1.1", "chance": "34.03846%"},
+      {"range": "1.1–1.2", "chance": "20%"},
+      {"range": "1.2–1.3", "chance": "10%"},
+      {"range": "1.3–1.4", "chance": "10%"},
+      {"range": "1.4–1.5", "chance": "10%"},
+      {"range": "1.5–1.6", "chance": "5%"},
+      {"range": "1.6–1.7", "chance": "0%", "note": "intentional gap — fewer than 1% reach 1.7+"},
+      {"range": "1.7–1.799", "chance": "0.67308%"},
+      {"range": "exactly 1.800", "chance": "0.28846%", "note": "PERFECT Quality"}
+    ],
+    "labels": [
+      {"quality": "< 1.0", "label": "Weak"},
+      {"quality": "1.0–1.1", "label": "Common"},
+      {"quality": "1.1–1.3", "label": "Uncommon"},
+      {"quality": "1.3–1.5", "label": "Rare"},
+      {"quality": "1.5–1.7", "label": "Epic"},
+      {"quality": "1.7+", "label": "Legendary"}
+    ]
+  },
+  "evolution": {
+    "description": "Evolution costs gold and you choose how much of the level to preserve. Unlocks when the Pokémon reaches the hunt level of the target.",
+    "base_cost_formula": "level² × 500 gold, multiplied by the chosen retention",
+    "retention_tiers": [
+      {
+        "retention": "0%",
+        "level_after": "Lv.1",
+        "cost_multiplier": 1.0,
+        "extra_cost": null,
+        "extra_note": "Free"
+      },
+      {
+        "retention": "25%",
+        "level_after": "25% of level",
+        "cost_multiplier": 1.5,
+        "extra_cost": null,
+        "extra_note": null
+      },
+      {
+        "retention": "50%",
+        "level_after": "50% of level",
+        "cost_multiplier": 2.5,
+        "extra_cost": "+1💎",
+        "extra_note": "requires 1 gem"
+      },
+      {
+        "retention": "75%",
+        "level_after": "75% of level",
+        "cost_multiplier": 4.0,
+        "extra_cost": "+2💎",
+        "extra_note": "requires 2 gems"
+      },
+      {
+        "retention": "100%",
+        "level_after": "keeps the level",
+        "cost_multiplier": 6.0,
+        "extra_cost": "+3💎",
+        "extra_note": "requires 3 gems"
+      }
+    ],
+    "notes": [
+      "Shiny and Ditto don't evolve.",
+      "Growth/Quality are kept — stats recalculate with the new species' base."
+    ]
+  }
+}

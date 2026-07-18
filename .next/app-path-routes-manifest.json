@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/calculadora/page": "/calculadora",
+  "/evolucao/page": "/evolucao",
+  "/favicon.ico/route": "/favicon.ico",
+  "/itens/page": "/itens",
+  "/logs/page": "/logs",
+  "/page": "/",
+  "/pokedex/page": "/pokedex",
+  "/profissoes/page": "/profissoes",
+  "/rota/page": "/rota",
+  "/sobre/page": "/sobre",
+  "/systems/page": "/systems",
+  "/tierlist/page": "/tierlist",
+  "/time/page": "/time",
+  "/tipos/page": "/tipos"
+}
