@@ -2,6 +2,7 @@ import type { Pokemon } from "@/lib/types";
 
 export const POKEMON: Pokemon[] = [
   {
+    "id": 1,
     "slug": "bulbasaur",
     "name": "Bulbasaur",
     "t1": "grass",
@@ -16,11 +17,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 2,
     "slug": "ivysaur",
     "name": "Ivysaur",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 60,
     "atk": 62,
@@ -30,11 +32,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 3,
     "slug": "venusaur",
     "name": "Venusaur",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 525,
     "hp": 80,
     "atk": 82,
@@ -44,6 +47,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 4,
     "slug": "charmander",
     "name": "Charmander",
     "t1": "fire",
@@ -58,11 +62,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 5,
     "slug": "charmeleon",
     "name": "Charmeleon",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 58,
     "atk": 64,
@@ -72,11 +77,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 6,
     "slug": "charizard",
     "name": "Charizard",
     "t1": "fire",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 534,
     "hp": 78,
     "atk": 84,
@@ -86,6 +92,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 7,
     "slug": "squirtle",
     "name": "Squirtle",
     "t1": "water",
@@ -100,11 +107,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 43
   },
   {
+    "id": 8,
     "slug": "wartortle",
     "name": "Wartortle",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 59,
     "atk": 63,
@@ -114,11 +122,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 58
   },
   {
+    "id": 9,
     "slug": "blastoise",
     "name": "Blastoise",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 530,
     "hp": 79,
     "atk": 83,
@@ -128,11 +137,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 78
   },
   {
+    "id": 10,
     "slug": "caterpie",
     "name": "Caterpie",
     "t1": "bug",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 195,
     "hp": 45,
     "atk": 30,
@@ -142,11 +152,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 11,
     "slug": "metapod",
     "name": "Metapod",
     "t1": "bug",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 205,
     "hp": 50,
     "atk": 20,
@@ -156,11 +167,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 12,
     "slug": "butterfree",
     "name": "Butterfree",
     "t1": "bug",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 395,
     "hp": 60,
     "atk": 45,
@@ -170,11 +182,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 13,
     "slug": "weedle",
     "name": "Weedle",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 195,
     "hp": 40,
     "atk": 35,
@@ -184,11 +197,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 14,
     "slug": "kakuna",
     "name": "Kakuna",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 205,
     "hp": 45,
     "atk": 25,
@@ -198,11 +212,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 15,
     "slug": "beedrill",
     "name": "Beedrill",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 395,
     "hp": 65,
     "atk": 90,
@@ -212,11 +227,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 75
   },
   {
+    "id": 16,
     "slug": "pidgey",
     "name": "Pidgey",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 251,
     "hp": 40,
     "atk": 45,
@@ -226,11 +242,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 56
   },
   {
+    "id": 17,
     "slug": "pidgeotto",
     "name": "Pidgeotto",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 349,
     "hp": 63,
     "atk": 60,
@@ -240,11 +257,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 71
   },
   {
+    "id": 18,
     "slug": "pidgeot",
     "name": "Pidgeot",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 479,
     "hp": 83,
     "atk": 80,
@@ -254,11 +272,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 101
   },
   {
+    "id": 19,
     "slug": "rattata",
     "name": "Rattata",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 253,
     "hp": 30,
     "atk": 56,
@@ -268,11 +287,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 72
   },
   {
+    "id": 20,
     "slug": "raticate",
     "name": "Raticate",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 413,
     "hp": 55,
     "atk": 81,
@@ -282,11 +302,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 97
   },
   {
+    "id": 21,
     "slug": "spearow",
     "name": "Spearow",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 262,
     "hp": 40,
     "atk": 60,
@@ -296,11 +317,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 22,
     "slug": "fearow",
     "name": "Fearow",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 442,
     "hp": 65,
     "atk": 90,
@@ -310,11 +332,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 23,
     "slug": "ekans",
     "name": "Ekans",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 288,
     "hp": 35,
     "atk": 60,
@@ -324,11 +347,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 24,
     "slug": "arbok",
     "name": "Arbok",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 448,
     "hp": 60,
     "atk": 95,
@@ -338,11 +362,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 25,
     "slug": "pikachu",
     "name": "Pikachu",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 35,
     "atk": 55,
@@ -352,11 +377,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 26,
     "slug": "raichu",
     "name": "Raichu",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 485,
     "hp": 60,
     "atk": 90,
@@ -366,11 +392,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 27,
     "slug": "sandshrew",
     "name": "Sandshrew",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 50,
     "atk": 75,
@@ -380,11 +407,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 28,
     "slug": "sandslash",
     "name": "Sandslash",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 450,
     "hp": 75,
     "atk": 100,
@@ -394,11 +422,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 29,
     "slug": "nidoranfemale",
     "name": "Nidoran Female",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 275,
     "hp": 55,
     "atk": 47,
@@ -408,11 +437,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 41
   },
   {
+    "id": 30,
     "slug": "nidorina",
     "name": "Nidorina",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 365,
     "hp": 70,
     "atk": 62,
@@ -422,11 +452,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 56
   },
   {
+    "id": 31,
     "slug": "nidoqueen",
     "name": "Nidoqueen",
     "t1": "poison",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 505,
     "hp": 90,
     "atk": 92,
@@ -436,11 +467,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 76
   },
   {
+    "id": 32,
     "slug": "nidoranmale",
     "name": "Nidoran Male",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 273,
     "hp": 46,
     "atk": 57,
@@ -450,11 +482,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 33,
     "slug": "nidoking",
     "name": "Nidoking",
     "t1": "poison",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 505,
     "hp": 81,
     "atk": 102,
@@ -464,11 +497,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 34,
     "slug": "clefairy",
     "name": "Clefairy",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 323,
     "hp": 70,
     "atk": 45,
@@ -478,11 +512,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 35,
     "slug": "clefable",
     "name": "Clefable",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 483,
     "hp": 95,
     "atk": 70,
@@ -492,11 +527,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 36,
     "slug": "vulpix",
     "name": "Vulpix",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 299,
     "hp": 38,
     "atk": 41,
@@ -506,11 +542,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 37,
     "slug": "ninetales",
     "name": "Ninetales",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 505,
     "hp": 73,
     "atk": 76,
@@ -520,11 +557,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 38,
     "slug": "jigglypuff",
     "name": "Jigglypuff",
     "t1": "normal",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "common",
     "base": 270,
     "hp": 115,
     "atk": 45,
@@ -534,11 +572,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 20
   },
   {
+    "id": 39,
     "slug": "wigglytuff",
     "name": "Wigglytuff",
     "t1": "normal",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "common",
     "base": 435,
     "hp": 140,
     "atk": 70,
@@ -548,11 +587,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 40,
     "slug": "zubat",
     "name": "Zubat",
     "t1": "poison",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 245,
     "hp": 40,
     "atk": 45,
@@ -562,11 +602,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 41,
     "slug": "golbat",
     "name": "Golbat",
     "t1": "poison",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 455,
     "hp": 75,
     "atk": 80,
@@ -576,11 +617,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 42,
     "slug": "oddish",
     "name": "Oddish",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 45,
     "atk": 50,
@@ -590,11 +632,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 43,
     "slug": "gloom",
     "name": "Gloom",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 395,
     "hp": 60,
     "atk": 65,
@@ -604,11 +647,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 44,
     "slug": "vileplume",
     "name": "Vileplume",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 75,
     "atk": 80,
@@ -618,11 +662,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 45,
     "slug": "paras",
     "name": "Paras",
     "t1": "bug",
     "t2": "grass",
-    "rarity": "",
+    "rarity": "common",
     "base": 285,
     "hp": 35,
     "atk": 70,
@@ -632,11 +677,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 25
   },
   {
+    "id": 46,
     "slug": "parasect",
     "name": "Parasect",
     "t1": "bug",
     "t2": "grass",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 60,
     "atk": 95,
@@ -646,11 +692,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 47,
     "slug": "venonat",
     "name": "Venonat",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 305,
     "hp": 60,
     "atk": 55,
@@ -660,11 +707,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 48,
     "slug": "venomoth",
     "name": "Venomoth",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 450,
     "hp": 70,
     "atk": 65,
@@ -674,11 +722,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 49,
     "slug": "diglett",
     "name": "Diglett",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 265,
     "hp": 10,
     "atk": 55,
@@ -688,11 +737,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 50,
     "slug": "dugtrio",
     "name": "Dugtrio",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 425,
     "hp": 35,
     "atk": 100,
@@ -702,11 +752,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 120
   },
   {
+    "id": 51,
     "slug": "meowth",
     "name": "Meowth",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 290,
     "hp": 40,
     "atk": 45,
@@ -716,11 +767,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 52,
     "slug": "persian",
     "name": "Persian",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 440,
     "hp": 65,
     "atk": 70,
@@ -730,11 +782,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 115
   },
   {
+    "id": 53,
     "slug": "psyduck",
     "name": "Psyduck",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 50,
     "atk": 52,
@@ -744,11 +797,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 54,
     "slug": "golduck",
     "name": "Golduck",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 80,
     "atk": 82,
@@ -758,11 +812,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 55,
     "slug": "mankey",
     "name": "Mankey",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 305,
     "hp": 40,
     "atk": 80,
@@ -772,11 +827,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 56,
     "slug": "primeape",
     "name": "Primeape",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 455,
     "hp": 65,
     "atk": 105,
@@ -786,11 +842,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 57,
     "slug": "growlithe",
     "name": "Growlithe",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 350,
     "hp": 55,
     "atk": 70,
@@ -800,11 +857,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 58,
     "slug": "arcanine",
     "name": "Arcanine",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 555,
     "hp": 90,
     "atk": 110,
@@ -814,11 +872,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 59,
     "slug": "poliwag",
     "name": "Poliwag",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 40,
     "atk": 50,
@@ -828,11 +887,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 60,
     "slug": "poliwhirl",
     "name": "Poliwhirl",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 385,
     "hp": 65,
     "atk": 65,
@@ -842,11 +902,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 61,
     "slug": "poliwrath",
     "name": "Poliwrath",
     "t1": "water",
     "t2": "fighting",
-    "rarity": "",
+    "rarity": "common",
     "base": 510,
     "hp": 90,
     "atk": 95,
@@ -856,11 +917,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 62,
     "slug": "abra",
     "name": "Abra",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 310,
     "hp": 25,
     "atk": 20,
@@ -870,11 +932,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 63,
     "slug": "kadabra",
     "name": "Kadabra",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 400,
     "hp": 40,
     "atk": 35,
@@ -884,11 +947,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 105
   },
   {
+    "id": 64,
     "slug": "alakazam",
     "name": "Alakazam",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 55,
     "atk": 50,
@@ -898,11 +962,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 120
   },
   {
+    "id": 65,
     "slug": "machop",
     "name": "Machop",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 305,
     "hp": 70,
     "atk": 80,
@@ -912,11 +977,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 66,
     "slug": "machoke",
     "name": "Machoke",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 80,
     "atk": 100,
@@ -926,11 +992,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 67,
     "slug": "machamp",
     "name": "Machamp",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 505,
     "hp": 90,
     "atk": 130,
@@ -940,11 +1007,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 68,
     "slug": "bellsprout",
     "name": "Bellsprout",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 50,
     "atk": 75,
@@ -954,11 +1022,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 69,
     "slug": "weepinbell",
     "name": "Weepinbell",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 390,
     "hp": 65,
     "atk": 90,
@@ -968,11 +1037,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 70,
     "slug": "victreebel",
     "name": "Victreebel",
     "t1": "grass",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 80,
     "atk": 105,
@@ -982,11 +1052,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 71,
     "slug": "tentacool",
     "name": "Tentacool",
     "t1": "water",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 335,
     "hp": 40,
     "atk": 40,
@@ -996,11 +1067,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 72,
     "slug": "tentacruel",
     "name": "Tentacruel",
     "t1": "water",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 515,
     "hp": 80,
     "atk": 70,
@@ -1010,11 +1082,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 73,
     "slug": "geodude",
     "name": "Geodude",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 40,
     "atk": 80,
@@ -1024,11 +1097,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 20
   },
   {
+    "id": 74,
     "slug": "graveler",
     "name": "Graveler",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 390,
     "hp": 55,
     "atk": 95,
@@ -1038,11 +1112,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 75,
     "slug": "golem",
     "name": "Golem",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 495,
     "hp": 80,
     "atk": 120,
@@ -1052,11 +1127,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 76,
     "slug": "ponyta",
     "name": "Ponyta",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 410,
     "hp": 50,
     "atk": 85,
@@ -1066,11 +1142,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 77,
     "slug": "rapidash",
     "name": "Rapidash",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 65,
     "atk": 100,
@@ -1080,11 +1157,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 105
   },
   {
+    "id": 78,
     "slug": "slowpoke",
     "name": "Slowpoke",
     "t1": "water",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 315,
     "hp": 90,
     "atk": 65,
@@ -1094,11 +1172,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 15
   },
   {
+    "id": 79,
     "slug": "slowbro",
     "name": "Slowbro",
     "t1": "water",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 95,
     "atk": 75,
@@ -1108,11 +1187,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 80,
     "slug": "magnemite",
     "name": "Magnemite",
     "t1": "electric",
     "t2": "steel",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 25,
     "atk": 35,
@@ -1122,11 +1202,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 81,
     "slug": "magneton",
     "name": "Magneton",
     "t1": "electric",
     "t2": "steel",
-    "rarity": "",
+    "rarity": "common",
     "base": 465,
     "hp": 50,
     "atk": 60,
@@ -1136,11 +1217,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 82,
     "slug": "farfetchd",
     "name": "Farfetchd",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 377,
     "hp": 52,
     "atk": 90,
@@ -1150,11 +1232,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 83,
     "slug": "doduo",
     "name": "Doduo",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 310,
     "hp": 35,
     "atk": 85,
@@ -1164,11 +1247,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 75
   },
   {
+    "id": 84,
     "slug": "dodrio",
     "name": "Dodrio",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 470,
     "hp": 60,
     "atk": 110,
@@ -1178,11 +1262,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 85,
     "slug": "seel",
     "name": "Seel",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 65,
     "atk": 45,
@@ -1192,11 +1277,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 86,
     "slug": "dewgong",
     "name": "Dewgong",
     "t1": "water",
     "t2": "ice",
-    "rarity": "",
+    "rarity": "common",
     "base": 475,
     "hp": 90,
     "atk": 70,
@@ -1206,11 +1292,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 87,
     "slug": "grimer",
     "name": "Grimer",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 80,
     "atk": 80,
@@ -1220,11 +1307,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 25
   },
   {
+    "id": 88,
     "slug": "muk",
     "name": "Muk",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 105,
     "atk": 105,
@@ -1234,11 +1322,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 89,
     "slug": "shellder",
     "name": "Shellder",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 305,
     "hp": 30,
     "atk": 65,
@@ -1248,11 +1337,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 90,
     "slug": "cloyster",
     "name": "Cloyster",
     "t1": "water",
     "t2": "ice",
-    "rarity": "",
+    "rarity": "common",
     "base": 525,
     "hp": 50,
     "atk": 95,
@@ -1262,11 +1352,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 91,
     "slug": "gastly",
     "name": "Gastly",
     "t1": "ghost",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 310,
     "hp": 30,
     "atk": 35,
@@ -1276,11 +1367,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 92,
     "slug": "haunter",
     "name": "Haunter",
     "t1": "ghost",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 405,
     "hp": 45,
     "atk": 50,
@@ -1290,11 +1382,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 93,
     "slug": "gengar",
     "name": "Gengar",
     "t1": "ghost",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 60,
     "atk": 65,
@@ -1304,11 +1397,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 94,
     "slug": "onix",
     "name": "Onix",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 385,
     "hp": 35,
     "atk": 45,
@@ -1318,11 +1412,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 95,
     "slug": "drowzee",
     "name": "Drowzee",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 328,
     "hp": 60,
     "atk": 48,
@@ -1332,11 +1427,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 42
   },
   {
+    "id": 96,
     "slug": "hypno",
     "name": "Hypno",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 483,
     "hp": 85,
     "atk": 73,
@@ -1346,11 +1442,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 67
   },
   {
+    "id": 97,
     "slug": "krabby",
     "name": "Krabby",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 30,
     "atk": 105,
@@ -1360,11 +1457,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 98,
     "slug": "kingler",
     "name": "Kingler",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 475,
     "hp": 55,
     "atk": 130,
@@ -1374,11 +1472,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 75
   },
   {
+    "id": 99,
     "slug": "voltorb",
     "name": "Voltorb",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 330,
     "hp": 40,
     "atk": 30,
@@ -1388,11 +1487,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 100,
     "slug": "electrode",
     "name": "Electrode",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 60,
     "atk": 50,
@@ -1402,11 +1502,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 150
   },
   {
+    "id": 101,
     "slug": "exeggcute",
     "name": "Exeggcute",
     "t1": "grass",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 60,
     "atk": 40,
@@ -1416,11 +1517,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 102,
     "slug": "exeggutor",
     "name": "Exeggutor",
     "t1": "grass",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 530,
     "hp": 95,
     "atk": 95,
@@ -1430,11 +1532,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 103,
     "slug": "cubone",
     "name": "Cubone",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 50,
     "atk": 50,
@@ -1444,11 +1547,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 104,
     "slug": "marowak",
     "name": "Marowak",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 425,
     "hp": 60,
     "atk": 80,
@@ -1458,11 +1562,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 105,
     "slug": "hitmonlee",
     "name": "Hitmonlee",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 455,
     "hp": 50,
     "atk": 120,
@@ -1472,11 +1577,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 87
   },
   {
+    "id": 106,
     "slug": "hitmonchan",
     "name": "Hitmonchan",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 455,
     "hp": 50,
     "atk": 105,
@@ -1486,11 +1592,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 76
   },
   {
+    "id": 107,
     "slug": "lickitung",
     "name": "Lickitung",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 385,
     "hp": 90,
     "atk": 55,
@@ -1500,11 +1607,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 108,
     "slug": "koffing",
     "name": "Koffing",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 340,
     "hp": 40,
     "atk": 65,
@@ -1514,11 +1622,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 109,
     "slug": "weezing",
     "name": "Weezing",
     "t1": "poison",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 65,
     "atk": 90,
@@ -1528,11 +1637,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 110,
     "slug": "rhyhorn",
     "name": "Rhyhorn",
     "t1": "ground",
     "t2": "rock",
-    "rarity": "",
+    "rarity": "common",
     "base": 345,
     "hp": 80,
     "atk": 85,
@@ -1542,11 +1652,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 25
   },
   {
+    "id": 111,
     "slug": "rhydon",
     "name": "Rhydon",
     "t1": "ground",
     "t2": "rock",
-    "rarity": "",
+    "rarity": "common",
     "base": 485,
     "hp": 105,
     "atk": 130,
@@ -1556,11 +1667,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 112,
     "slug": "chansey",
     "name": "Chansey",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 450,
     "hp": 250,
     "atk": 5,
@@ -1570,11 +1682,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 113,
     "slug": "tangela",
     "name": "Tangela",
     "t1": "grass",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 435,
     "hp": 65,
     "atk": 55,
@@ -1584,11 +1697,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 114,
     "slug": "kangaskhan",
     "name": "Kangaskhan",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 105,
     "atk": 95,
@@ -1598,11 +1712,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 115,
     "slug": "horsea",
     "name": "Horsea",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 295,
     "hp": 30,
     "atk": 40,
@@ -1612,11 +1727,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 116,
     "slug": "seadra",
     "name": "Seadra",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 440,
     "hp": 55,
     "atk": 65,
@@ -1626,11 +1742,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 117,
     "slug": "goldeen",
     "name": "Goldeen",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 45,
     "atk": 67,
@@ -1640,11 +1757,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 63
   },
   {
+    "id": 118,
     "slug": "seaking",
     "name": "Seaking",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 450,
     "hp": 80,
     "atk": 92,
@@ -1654,11 +1772,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 68
   },
   {
+    "id": 119,
     "slug": "staryu",
     "name": "Staryu",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 340,
     "hp": 30,
     "atk": 45,
@@ -1668,11 +1787,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 120,
     "slug": "starmie",
     "name": "Starmie",
     "t1": "water",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 520,
     "hp": 60,
     "atk": 75,
@@ -1682,11 +1802,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 115
   },
   {
+    "id": 121,
     "slug": "mrmime",
     "name": "Mr. Mime",
     "t1": "psychic",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "common",
     "base": 460,
     "hp": 40,
     "atk": 45,
@@ -1696,11 +1817,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 122,
     "slug": "scyther",
     "name": "Scyther",
     "t1": "bug",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 70,
     "atk": 110,
@@ -1710,11 +1832,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 105
   },
   {
+    "id": 123,
     "slug": "jynx",
     "name": "Jynx",
     "t1": "ice",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 455,
     "hp": 65,
     "atk": 50,
@@ -1724,11 +1847,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 124,
     "slug": "electabuzz",
     "name": "Electabuzz",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 65,
     "atk": 83,
@@ -1738,11 +1862,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 105
   },
   {
+    "id": 125,
     "slug": "magmar",
     "name": "Magmar",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 495,
     "hp": 65,
     "atk": 95,
@@ -1752,11 +1877,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 93
   },
   {
+    "id": 126,
     "slug": "pinsir",
     "name": "Pinsir",
     "t1": "bug",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 500,
     "hp": 65,
     "atk": 125,
@@ -1766,11 +1892,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 127,
     "slug": "tauros",
     "name": "Tauros",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 490,
     "hp": 75,
     "atk": 100,
@@ -1780,11 +1907,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 128,
     "slug": "magikarp",
     "name": "Magikarp",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 200,
     "hp": 20,
     "atk": 10,
@@ -1794,11 +1922,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 129,
     "slug": "gyarados",
     "name": "Gyarados",
     "t1": "water",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 540,
     "hp": 95,
     "atk": 125,
@@ -1808,11 +1937,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 81
   },
   {
+    "id": 130,
     "slug": "lapras",
     "name": "Lapras",
     "t1": "water",
     "t2": "ice",
-    "rarity": "",
+    "rarity": "common",
     "base": 535,
     "hp": 130,
     "atk": 85,
@@ -1822,11 +1952,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 131,
     "slug": "ditto",
     "name": "Ditto",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 288,
     "hp": 48,
     "atk": 48,
@@ -1836,11 +1967,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 48
   },
   {
+    "id": 132,
     "slug": "eevee",
     "name": "Eevee",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 325,
     "hp": 55,
     "atk": 55,
@@ -1850,11 +1982,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 133,
     "slug": "vaporeon",
     "name": "Vaporeon",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 525,
     "hp": 130,
     "atk": 65,
@@ -1864,11 +1997,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 134,
     "slug": "jolteon",
     "name": "Jolteon",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 525,
     "hp": 65,
     "atk": 65,
@@ -1878,11 +2012,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 130
   },
   {
+    "id": 135,
     "slug": "flareon",
     "name": "Flareon",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 525,
     "hp": 65,
     "atk": 130,
@@ -1892,11 +2027,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 136,
     "slug": "porygon",
     "name": "Porygon",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 395,
     "hp": 65,
     "atk": 60,
@@ -1906,11 +2042,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 137,
     "slug": "omanyte",
     "name": "Omanyte",
     "t1": "rock",
     "t2": "water",
-    "rarity": "",
+    "rarity": "common",
     "base": 355,
     "hp": 35,
     "atk": 40,
@@ -1920,11 +2057,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 138,
     "slug": "omastar",
     "name": "Omastar",
     "t1": "rock",
     "t2": "water",
-    "rarity": "",
+    "rarity": "common",
     "base": 495,
     "hp": 70,
     "atk": 60,
@@ -1934,11 +2072,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 139,
     "slug": "kabuto",
     "name": "Kabuto",
     "t1": "rock",
     "t2": "water",
-    "rarity": "",
+    "rarity": "common",
     "base": 355,
     "hp": 30,
     "atk": 80,
@@ -1948,11 +2087,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 140,
     "slug": "kabutops",
     "name": "Kabutops",
     "t1": "rock",
     "t2": "water",
-    "rarity": "",
+    "rarity": "common",
     "base": 495,
     "hp": 60,
     "atk": 115,
@@ -1962,11 +2102,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 141,
     "slug": "aerodactyl",
     "name": "Aerodactyl",
     "t1": "rock",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 515,
     "hp": 80,
     "atk": 105,
@@ -1976,11 +2117,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 130
   },
   {
+    "id": 142,
     "slug": "snorlax",
     "name": "Snorlax",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 540,
     "hp": 160,
     "atk": 110,
@@ -1990,11 +2132,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 143,
     "slug": "articuno",
     "name": "Articuno",
     "t1": "ice",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 90,
     "atk": 85,
@@ -2004,11 +2147,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 144,
     "slug": "zapdos",
     "name": "Zapdos",
     "t1": "electric",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 90,
     "atk": 90,
@@ -2018,11 +2162,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 145,
     "slug": "moltres",
     "name": "Moltres",
     "t1": "fire",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 90,
     "atk": 100,
@@ -2032,11 +2177,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 146,
     "slug": "dratini",
     "name": "Dratini",
     "t1": "dragon",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 41,
     "atk": 64,
@@ -2046,11 +2192,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 147,
     "slug": "dragonair",
     "name": "Dragonair",
     "t1": "dragon",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 420,
     "hp": 61,
     "atk": 84,
@@ -2060,11 +2207,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 148,
     "slug": "dragonite",
     "name": "Dragonite",
     "t1": "dragon",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 600,
     "hp": 91,
     "atk": 134,
@@ -2074,11 +2222,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 149,
     "slug": "mewtwo",
     "name": "Mewtwo",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 680,
     "hp": 106,
     "atk": 110,
@@ -2088,11 +2237,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 130
   },
   {
+    "id": 150,
     "slug": "mew",
     "name": "Mew",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "mythic",
     "base": 600,
     "hp": 100,
     "atk": 100,
@@ -2102,11 +2252,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 151,
     "slug": "chikorita",
     "name": "Chikorita",
     "t1": "grass",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 318,
     "hp": 45,
     "atk": 49,
@@ -2116,11 +2267,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 152,
     "slug": "bayleef",
     "name": "Bayleef",
     "t1": "grass",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 60,
     "atk": 62,
@@ -2130,6 +2282,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 153,
     "slug": "meganium",
     "name": "Meganium",
     "t1": "grass",
@@ -2144,11 +2297,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 154,
     "slug": "cyndaquil",
     "name": "Cyndaquil",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 309,
     "hp": 39,
     "atk": 52,
@@ -2158,11 +2312,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 155,
     "slug": "quilava",
     "name": "Quilava",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 58,
     "atk": 64,
@@ -2172,6 +2327,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 156,
     "slug": "typhlosion",
     "name": "Typhlosion",
     "t1": "fire",
@@ -2186,11 +2342,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 157,
     "slug": "totodile",
     "name": "Totodile",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 314,
     "hp": 50,
     "atk": 65,
@@ -2200,11 +2357,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 43
   },
   {
+    "id": 158,
     "slug": "croconaw",
     "name": "Croconaw",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 65,
     "atk": 80,
@@ -2214,6 +2372,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 58
   },
   {
+    "id": 159,
     "slug": "feraligatr",
     "name": "Feraligatr",
     "t1": "water",
@@ -2228,11 +2387,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 78
   },
   {
+    "id": 160,
     "slug": "sentret",
     "name": "Sentret",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 215,
     "hp": 35,
     "atk": 46,
@@ -2242,11 +2402,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 20
   },
   {
+    "id": 161,
     "slug": "furret",
     "name": "Furret",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 415,
     "hp": 85,
     "atk": 76,
@@ -2256,11 +2417,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 162,
     "slug": "hoothoot",
     "name": "Hoothoot",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 262,
     "hp": 60,
     "atk": 30,
@@ -2270,11 +2432,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 163,
     "slug": "noctowl",
     "name": "Noctowl",
     "t1": "normal",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 452,
     "hp": 100,
     "atk": 50,
@@ -2284,11 +2447,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 164,
     "slug": "ledyba",
     "name": "Ledyba",
     "t1": "bug",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 265,
     "hp": 40,
     "atk": 20,
@@ -2298,11 +2462,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 165,
     "slug": "ledian",
     "name": "Ledian",
     "t1": "bug",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 390,
     "hp": 55,
     "atk": 35,
@@ -2312,11 +2477,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 166,
     "slug": "spinarak",
     "name": "Spinarak",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "common",
     "base": 250,
     "hp": 40,
     "atk": 60,
@@ -2326,11 +2492,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 167,
     "slug": "ariados",
     "name": "Ariados",
     "t1": "bug",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 400,
     "hp": 70,
     "atk": 90,
@@ -2340,6 +2507,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 168,
     "slug": "crobat",
     "name": "Crobat",
     "t1": "poison",
@@ -2354,11 +2522,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 130
   },
   {
+    "id": 169,
     "slug": "chinchou",
     "name": "Chinchou",
     "t1": "water",
     "t2": "electric",
-    "rarity": "",
+    "rarity": "common",
     "base": 330,
     "hp": 75,
     "atk": 38,
@@ -2368,11 +2537,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 67
   },
   {
+    "id": 170,
     "slug": "lanturn",
     "name": "Lanturn",
     "t1": "water",
     "t2": "electric",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 460,
     "hp": 125,
     "atk": 58,
@@ -2382,11 +2552,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 67
   },
   {
+    "id": 171,
     "slug": "pichu",
     "name": "Pichu",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 205,
     "hp": 20,
     "atk": 40,
@@ -2396,11 +2567,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 172,
     "slug": "cleffa",
     "name": "Cleffa",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 218,
     "hp": 50,
     "atk": 25,
@@ -2410,11 +2582,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 15
   },
   {
+    "id": 173,
     "slug": "igglybuff",
     "name": "Igglybuff",
     "t1": "normal",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "common",
     "base": 210,
     "hp": 90,
     "atk": 30,
@@ -2424,11 +2597,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 15
   },
   {
+    "id": 174,
     "slug": "togepi",
     "name": "Togepi",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 245,
     "hp": 35,
     "atk": 20,
@@ -2438,11 +2612,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 20
   },
   {
+    "id": 175,
     "slug": "togetic",
     "name": "Togetic",
     "t1": "fairy",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 55,
     "atk": 40,
@@ -2452,11 +2627,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 176,
     "slug": "natu",
     "name": "Natu",
     "t1": "psychic",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 320,
     "hp": 40,
     "atk": 50,
@@ -2466,11 +2642,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 177,
     "slug": "xatu",
     "name": "Xatu",
     "t1": "psychic",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 470,
     "hp": 65,
     "atk": 75,
@@ -2480,11 +2657,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 178,
     "slug": "mareep",
     "name": "Mareep",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 280,
     "hp": 55,
     "atk": 40,
@@ -2494,11 +2672,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 179,
     "slug": "flaaffy",
     "name": "Flaaffy",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 365,
     "hp": 70,
     "atk": 55,
@@ -2508,6 +2687,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 180,
     "slug": "ampharos",
     "name": "Ampharos",
     "t1": "electric",
@@ -2522,6 +2702,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 181,
     "slug": "bellossom",
     "name": "Bellossom",
     "t1": "grass",
@@ -2536,11 +2717,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 182,
     "slug": "marill",
     "name": "Marill",
     "t1": "water",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "common",
     "base": 250,
     "hp": 70,
     "atk": 20,
@@ -2550,11 +2732,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 183,
     "slug": "azumarill",
     "name": "Azumarill",
     "t1": "water",
     "t2": "fairy",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 420,
     "hp": 100,
     "atk": 50,
@@ -2564,11 +2747,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 184,
     "slug": "sudowoodo",
     "name": "Sudowoodo",
     "t1": "rock",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 410,
     "hp": 70,
     "atk": 100,
@@ -2578,6 +2762,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 185,
     "slug": "politoed",
     "name": "Politoed",
     "t1": "water",
@@ -2592,11 +2777,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 186,
     "slug": "hoppip",
     "name": "Hoppip",
     "t1": "grass",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "common",
     "base": 250,
     "hp": 35,
     "atk": 35,
@@ -2606,11 +2792,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 187,
     "slug": "skiploom",
     "name": "Skiploom",
     "t1": "grass",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 340,
     "hp": 55,
     "atk": 45,
@@ -2620,6 +2807,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 80
   },
   {
+    "id": 188,
     "slug": "jumpluff",
     "name": "Jumpluff",
     "t1": "grass",
@@ -2634,11 +2822,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 189,
     "slug": "aipom",
     "name": "Aipom",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 360,
     "hp": 55,
     "atk": 70,
@@ -2648,11 +2837,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 190,
     "slug": "sunkern",
     "name": "Sunkern",
     "t1": "grass",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 180,
     "hp": 30,
     "atk": 30,
@@ -2662,11 +2852,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 191,
     "slug": "sunflora",
     "name": "Sunflora",
     "t1": "grass",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 425,
     "hp": 75,
     "atk": 75,
@@ -2676,11 +2867,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 192,
     "slug": "yanma",
     "name": "Yanma",
     "t1": "bug",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 390,
     "hp": 65,
     "atk": 65,
@@ -2690,11 +2882,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 193,
     "slug": "wooper",
     "name": "Wooper",
     "t1": "water",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 210,
     "hp": 55,
     "atk": 45,
@@ -2704,11 +2897,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 15
   },
   {
+    "id": 194,
     "slug": "quagsire",
     "name": "Quagsire",
     "t1": "water",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 430,
     "hp": 95,
     "atk": 85,
@@ -2718,6 +2912,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 195,
     "slug": "espeon",
     "name": "Espeon",
     "t1": "psychic",
@@ -2732,6 +2927,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 196,
     "slug": "umbreon",
     "name": "Umbreon",
     "t1": "dark",
@@ -2746,11 +2942,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 197,
     "slug": "murkrow",
     "name": "Murkrow",
     "t1": "dark",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 60,
     "atk": 85,
@@ -2760,6 +2957,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 91
   },
   {
+    "id": 198,
     "slug": "slowking",
     "name": "Slowking",
     "t1": "water",
@@ -2774,11 +2972,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 199,
     "slug": "misdreavus",
     "name": "Misdreavus",
     "t1": "ghost",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 435,
     "hp": 60,
     "atk": 60,
@@ -2788,11 +2987,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 200,
     "slug": "unown",
     "name": "Unown",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 336,
     "hp": 48,
     "atk": 72,
@@ -2802,11 +3002,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 48
   },
   {
+    "id": 201,
     "slug": "wobbuffet",
     "name": "Wobbuffet",
     "t1": "psychic",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 405,
     "hp": 190,
     "atk": 33,
@@ -2816,11 +3017,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 33
   },
   {
+    "id": 202,
     "slug": "girafarig",
     "name": "Girafarig",
     "t1": "normal",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 455,
     "hp": 70,
     "atk": 80,
@@ -2830,11 +3032,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 203,
     "slug": "pineco",
     "name": "Pineco",
     "t1": "bug",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 290,
     "hp": 50,
     "atk": 65,
@@ -2844,11 +3047,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 15
   },
   {
+    "id": 204,
     "slug": "forretress",
     "name": "Forretress",
     "t1": "bug",
     "t2": "steel",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 465,
     "hp": 75,
     "atk": 90,
@@ -2858,11 +3062,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 205,
     "slug": "dunsparce",
     "name": "Dunsparce",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 415,
     "hp": 100,
     "atk": 70,
@@ -2872,11 +3077,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 206,
     "slug": "gligar",
     "name": "Gligar",
     "t1": "ground",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 430,
     "hp": 65,
     "atk": 75,
@@ -2886,6 +3092,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 207,
     "slug": "steelix",
     "name": "Steelix",
     "t1": "steel",
@@ -2900,11 +3107,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 208,
     "slug": "snubbull",
     "name": "Snubbull",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 60,
     "atk": 80,
@@ -2914,11 +3122,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 209,
     "slug": "granbull",
     "name": "Granbull",
     "t1": "fairy",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 450,
     "hp": 90,
     "atk": 120,
@@ -2928,11 +3137,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 210,
     "slug": "qwilfish",
     "name": "Qwilfish",
     "t1": "water",
     "t2": "poison",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 440,
     "hp": 65,
     "atk": 95,
@@ -2942,6 +3152,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 211,
     "slug": "scizor",
     "name": "Scizor",
     "t1": "bug",
@@ -2956,11 +3167,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 212,
     "slug": "shuckle",
     "name": "Shuckle",
     "t1": "bug",
     "t2": "rock",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 505,
     "hp": 20,
     "atk": 10,
@@ -2970,6 +3182,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 5
   },
   {
+    "id": 213,
     "slug": "heracross",
     "name": "Heracross",
     "t1": "bug",
@@ -2984,11 +3197,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 214,
     "slug": "sneasel",
     "name": "Sneasel",
     "t1": "dark",
     "t2": "ice",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 430,
     "hp": 55,
     "atk": 95,
@@ -2998,11 +3212,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 115
   },
   {
+    "id": 215,
     "slug": "teddiursa",
     "name": "Teddiursa",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 330,
     "hp": 60,
     "atk": 80,
@@ -3012,6 +3227,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 216,
     "slug": "ursaring",
     "name": "Ursaring",
     "t1": "normal",
@@ -3026,11 +3242,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 217,
     "slug": "slugma",
     "name": "Slugma",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 250,
     "hp": 40,
     "atk": 40,
@@ -3040,11 +3257,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 20
   },
   {
+    "id": 218,
     "slug": "magcargo",
     "name": "Magcargo",
     "t1": "fire",
     "t2": "rock",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 430,
     "hp": 60,
     "atk": 50,
@@ -3054,11 +3272,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 30
   },
   {
+    "id": 219,
     "slug": "swinub",
     "name": "Swinub",
     "t1": "ice",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "common",
     "base": 250,
     "hp": 50,
     "atk": 50,
@@ -3068,11 +3287,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 220,
     "slug": "piloswine",
     "name": "Piloswine",
     "t1": "ice",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 450,
     "hp": 100,
     "atk": 100,
@@ -3082,11 +3302,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 221,
     "slug": "corsola",
     "name": "Corsola",
     "t1": "water",
     "t2": "rock",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 410,
     "hp": 65,
     "atk": 55,
@@ -3096,11 +3317,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 222,
     "slug": "remoraid",
     "name": "Remoraid",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 300,
     "hp": 35,
     "atk": 65,
@@ -3110,11 +3332,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 223,
     "slug": "octillery",
     "name": "Octillery",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 480,
     "hp": 75,
     "atk": 105,
@@ -3124,11 +3347,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 45
   },
   {
+    "id": 224,
     "slug": "delibird",
     "name": "Delibird",
     "t1": "ice",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 330,
     "hp": 45,
     "atk": 55,
@@ -3138,11 +3362,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 75
   },
   {
+    "id": 225,
     "slug": "mantine",
     "name": "Mantine",
     "t1": "water",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 485,
     "hp": 85,
     "atk": 40,
@@ -3152,6 +3377,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 226,
     "slug": "skarmory",
     "name": "Skarmory",
     "t1": "steel",
@@ -3166,11 +3392,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 227,
     "slug": "houndour",
     "name": "Houndour",
     "t1": "dark",
     "t2": "fire",
-    "rarity": "",
+    "rarity": "common",
     "base": 330,
     "hp": 45,
     "atk": 60,
@@ -3180,6 +3407,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 228,
     "slug": "houndoom",
     "name": "Houndoom",
     "t1": "dark",
@@ -3194,6 +3422,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 229,
     "slug": "kingdra",
     "name": "Kingdra",
     "t1": "water",
@@ -3208,11 +3437,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 230,
     "slug": "phanpy",
     "name": "Phanpy",
     "t1": "ground",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 330,
     "hp": 90,
     "atk": 60,
@@ -3222,6 +3452,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 40
   },
   {
+    "id": 231,
     "slug": "donphan",
     "name": "Donphan",
     "t1": "ground",
@@ -3236,6 +3467,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 50
   },
   {
+    "id": 232,
     "slug": "porygon2",
     "name": "Porygon2",
     "t1": "normal",
@@ -3250,11 +3482,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 60
   },
   {
+    "id": 233,
     "slug": "stantler",
     "name": "Stantler",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 465,
     "hp": 73,
     "atk": 95,
@@ -3264,11 +3497,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 234,
     "slug": "smeargle",
     "name": "Smeargle",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 250,
     "hp": 55,
     "atk": 20,
@@ -3278,11 +3512,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 75
   },
   {
+    "id": 235,
     "slug": "tyrogue",
     "name": "Tyrogue",
     "t1": "fighting",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 210,
     "hp": 35,
     "atk": 35,
@@ -3292,6 +3527,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 35
   },
   {
+    "id": 236,
     "slug": "hitmontop",
     "name": "Hitmontop",
     "t1": "fighting",
@@ -3306,11 +3542,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 70
   },
   {
+    "id": 237,
     "slug": "smoochum",
     "name": "Smoochum",
     "t1": "ice",
     "t2": "psychic",
-    "rarity": "",
+    "rarity": "common",
     "base": 305,
     "hp": 45,
     "atk": 30,
@@ -3320,11 +3557,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 65
   },
   {
+    "id": 238,
     "slug": "elekid",
     "name": "Elekid",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 360,
     "hp": 45,
     "atk": 63,
@@ -3334,11 +3572,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 95
   },
   {
+    "id": 239,
     "slug": "magby",
     "name": "Magby",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "common",
     "base": 365,
     "hp": 45,
     "atk": 75,
@@ -3348,11 +3587,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 83
   },
   {
+    "id": 240,
     "slug": "miltank",
     "name": "Miltank",
     "t1": "normal",
     "t2": "",
-    "rarity": "",
+    "rarity": "uncommon",
     "base": 490,
     "hp": 95,
     "atk": 80,
@@ -3362,6 +3602,7 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 241,
     "slug": "blissey",
     "name": "Blissey",
     "t1": "normal",
@@ -3376,11 +3617,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 55
   },
   {
+    "id": 242,
     "slug": "raikou",
     "name": "Raikou",
     "t1": "electric",
     "t2": "",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 90,
     "atk": 85,
@@ -3390,11 +3632,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 115
   },
   {
+    "id": 243,
     "slug": "entei",
     "name": "Entei",
     "t1": "fire",
     "t2": "",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 115,
     "atk": 115,
@@ -3404,11 +3647,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 100
   },
   {
+    "id": 244,
     "slug": "suicune",
     "name": "Suicune",
     "t1": "water",
     "t2": "",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 580,
     "hp": 100,
     "atk": 75,
@@ -3418,11 +3662,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 85
   },
   {
+    "id": 245,
     "slug": "larvitar",
     "name": "Larvitar",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "epic",
     "base": 300,
     "hp": 50,
     "atk": 64,
@@ -3432,11 +3677,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 41
   },
   {
+    "id": 246,
     "slug": "pupitar",
     "name": "Pupitar",
     "t1": "rock",
     "t2": "ground",
-    "rarity": "",
+    "rarity": "epic",
     "base": 410,
     "hp": 70,
     "atk": 84,
@@ -3446,11 +3692,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 51
   },
   {
+    "id": 247,
     "slug": "tyranitar",
     "name": "Tyranitar",
     "t1": "rock",
     "t2": "dark",
-    "rarity": "",
+    "rarity": "epic",
     "base": 600,
     "hp": 100,
     "atk": 134,
@@ -3460,11 +3707,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 61
   },
   {
+    "id": 248,
     "slug": "lugia",
     "name": "Lugia",
     "t1": "psychic",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 680,
     "hp": 106,
     "atk": 90,
@@ -3474,11 +3722,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 110
   },
   {
+    "id": 249,
     "slug": "hooh",
     "name": "Ho-Oh",
     "t1": "fire",
     "t2": "flying",
-    "rarity": "",
+    "rarity": "legendary",
     "base": 680,
     "hp": 106,
     "atk": 130,
@@ -3488,11 +3737,12 @@ export const POKEMON: Pokemon[] = [
     "spd": 90
   },
   {
+    "id": 250,
     "slug": "celebi",
     "name": "Celebi",
     "t1": "psychic",
     "t2": "grass",
-    "rarity": "",
+    "rarity": "mythic",
     "base": 600,
     "hp": 100,
     "atk": 100,

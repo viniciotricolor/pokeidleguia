@@ -2,10 +2,9 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { POKEMON } from '@/data/pokemon';
-import { TYPE_NAMES } from '@/data/types';
+import { useTheme } from 'next-themes';
 import {
   Home, Map, Trophy, Target, BookOpen, Backpack,
   Calculator, ArrowUp, Users, Settings, Briefcase,
@@ -30,26 +29,28 @@ const NAV = [
 
 export function Sidebar() {
   const pathname = usePathname();
+  const { theme, setTheme } = useTheme();
   const [open, setOpen] = useState(false);
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
-  const [query, setQuery] = useState('');
+  const [navQuery, setNavQuery] = useState('');
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => setMounted(true), []);
+
+  // Filter NAV links by label
+  const filteredNav = useMemo(() => {
+    if (!navQuery || navQuery.length < 1) return null;
+    return NAV.filter(item =>
+      item.label.toLowerCase().includes(navQuery.toLowerCase())
+    );
+  }, [navQuery]);
 
   useEffect(() => {
-    const saved = localStorage.getItem('theme') as 'dark' | 'light' | null;
-    if (saved) setTheme(saved);
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark');
-    document.documentElement.classList.toggle('light', theme === 'light');
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  const results = query.length >= 2
-    ? POKEMON.filter(p =>
-        p.name.toLowerCase().includes(query.toLowerCase())
-      ).slice(0, 8)
-    : [];
+    if (searchOpen && searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [searchOpen]);
 
   return (
     <>
@@ -93,33 +94,64 @@ export function Sidebar() {
           </button>
         </div>
 
+        {/* Global Search — filters NAV links */}
         <div className="p-3">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <input
+              ref={searchInputRef}
               type="text"
-              placeholder="Buscar..."
-              value={query}
-              onChange={e => setQuery(e.target.value)}
+              placeholder="Buscar páginas..."
+              value={navQuery}
+              onChange={e => {
+                setNavQuery(e.target.value);
+                setSearchOpen(e.target.value.length > 0);
+              }}
+              onFocus={() => { if (navQuery) setSearchOpen(true); }}
+              onBlur={() => setTimeout(() => setSearchOpen(false), 200)}
               className="w-full pl-9 pr-3 py-2 text-sm rounded-lg bg-background border border-border focus:outline-none focus:ring-2 focus:ring-primary"
             />
-            {results.length > 0 && (
-              <div className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg z-50">
-                {results.map(p => (
-                  <Link
-                    key={p.slug}
-                    href={`/pokedex#${p.slug}`}
-                    className="block px-3 py-2 hover:bg-accent text-sm"
-                    onClick={() => { setQuery(''); setOpen(false); }}
-                  >
-                    {p.name}
-                    <span className="text-muted-foreground ml-2 text-xs">
-                      {(p.t2 ? `${TYPE_NAMES[p.t1]}/${TYPE_NAMES[p.t2]}` : TYPE_NAMES[p.t1])?.toUpperCase()}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            )}
+
+            <AnimatePresence>
+              {searchOpen && filteredNav && filteredNav.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: -4, scaleY: 0.95 }}
+                  animate={{ opacity: 1, y: 0, scaleY: 1 }}
+                  exit={{ opacity: 0, y: -4, scaleY: 0.95 }}
+                  transition={{ duration: 0.15, ease: 'easeOut' }}
+                  className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg z-50 origin-top"
+                >
+                  {filteredNav.map(item => {
+                    const Icon = item.icon;
+                    return (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="flex items-center gap-2 px-3 py-2 hover:bg-accent text-sm"
+                        onClick={() => { setNavQuery(''); setSearchOpen(false); setOpen(false); }}
+                      >
+                        <Icon className="w-4 h-4 text-muted-foreground" />
+                        <span>{item.label}</span>
+                        {item.section && (
+                          <span className="ml-auto text-xs text-muted-foreground">{item.section}</span>
+                        )}
+                      </Link>
+                    );
+                  })}
+                </motion.div>
+              )}
+              {searchOpen && filteredNav && filteredNav.length === 0 && navQuery.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: -4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  transition={{ duration: 0.15 }}
+                  className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg z-50 p-3 text-sm text-muted-foreground"
+                >
+                  Nenhum resultado para &quot;{navQuery}&quot;
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         </div>
 
@@ -160,8 +192,17 @@ export function Sidebar() {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm"
           >
-            {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-            {theme === 'dark' ? 'Light' : 'Dark'}
+            {mounted ? (
+              <>
+                {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                {theme === 'dark' ? 'Light' : 'Dark'}
+              </>
+            ) : (
+              <>
+                <Sun className="w-4 h-4" />
+                Light
+              </>
+            )}
           </button>
           <a
             href="https://poke.idleworld.online/?ref=N9YEEGV"

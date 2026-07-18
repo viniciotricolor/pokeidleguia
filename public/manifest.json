@@ -1,0 +1,24 @@
+{
+  "name": "PokeIdleGuia",
+  "short_name": "PokeIdleGuia",
+  "description": "Guia completo de Poke Idle World: tier list, rotas, calculadoras, pokédex e todas as mecânicas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/pokeball.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pokeball.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
